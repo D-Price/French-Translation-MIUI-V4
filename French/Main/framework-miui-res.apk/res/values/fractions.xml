@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="config_full_screen_expand_status_bar_height_ratio">100.0%</fraction>
+    <fraction name="resource_thumbnail_double_height_vs_width_ratio">69.266%</fraction>
+    <fraction name="resource_thumbnail_triple_height_vs_width_ratio">156.25%</fraction>
+    <fraction name="resource_thumbnail_triple_flat_height_vs_width_ratio">88.888%</fraction>
+    <fraction name="resource_thumbnail_double_flat_icon_height_vs_width_ratio">82.569%</fraction>
+</resources>

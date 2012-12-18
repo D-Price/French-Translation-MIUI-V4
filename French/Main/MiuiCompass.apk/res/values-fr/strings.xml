@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Boussole</string>
+    <string name="getting_location">Géolocalisation...</string>
+    <string name="cannot_get_location">"Impossible d'obtenir votre position"</string>
+    <string name="location_north">%s N</string>
+    <string name="location_south">%s S</string>
+    <string name="location_east">%s E</string>
+    <string name="location_west">%s O</string>
+    <string name="calibrate_success">Calibration complète</string>
+    <string name="pressure">Pression %.1fhPa</string>
+    <string name="altitude">Altitude %.1fm</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" android:layout_above="@id/emergencyCallButton_account">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/topHeader_account" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="4.0dip" android:drawableLeft="@drawable/android_ic_lock_idle_lock" android:drawablePadding="5.0dip" android:layout_alignParentTop="true" />
+            <View android:id="@id/spacerTop_account" android:background="@drawable/android_divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/topHeader_account" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/instructions_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="8.0dip" android:text="@string/android_lockscreen_glogin_instructions" android:layout_below="@id/spacerTop_account" />
+            <Spinner android:id="@id/login_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/instructions_account" />
+            <EditText android:id="@id/password_account" android:nextFocusRight="@id/ok" android:nextFocusDown="@id/ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="7.0dip" android:hint="@string/android_lockscreen_glogin_password_hint" android:layout_below="@id/login_account" android:inputType="textPassword" />
+            <Button android:id="@id/ok_account" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:text="@string/android_lockscreen_glogin_submit_button" android:layout_below="@id/password_account" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <View android:background="@drawable/android_divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" />
+    <Button android:layout_gravity="center" android:id="@id/emergencyCallButton_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/android_lockscreen_emergency_call" android:drawableLeft="@drawable/android_ic_emergency" android:drawablePadding="4.0dip" />
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="widget_sizes">
+        <item>home_edit_box_area_1_1</item>
+        <item>home_edit_box_area_1_2</item>
+        <item>home_edit_box_area_1_3</item>
+        <item>home_edit_box_area_1_4</item>
+        <item>home_edit_box_area_2_1</item>
+        <item>home_edit_box_area_2_2</item>
+        <item>home_edit_box_area_2_3</item>
+        <item>home_edit_box_area_2_4</item>
+        <item>home_edit_box_area_3_1</item>
+        <item>home_edit_box_area_3_2</item>
+        <item>home_edit_box_area_3_3</item>
+        <item>home_edit_box_area_3_4</item>
+        <item>home_edit_box_area_4_1</item>
+        <item>home_edit_box_area_4_2</item>
+        <item>home_edit_box_area_4_3</item>
+        <item>home_edit_box_area_4_4</item>
+    </string-array>
+    <string-array name="transformation_entries">
+        <item>Classique simple</item>
+        <item>Classique(sans rebond)</item>
+        <item>Fondu</item>
+        <item>Eventail</item>
+        <item>Page</item>
+        <item>Cascade</item>
+        <item>Rotation</item>
+        <item>Cube</item>
+    </string-array>
+    <string-array name="transformation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Défilant avec les bureaux</item>
+        <item>Centre</item>
+        <item>Gauche</item>
+        <item>Droite</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>byTheme</item>
+        <item>center</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>Defaut</item>
+        <item>Classique</item>
+    </string-array>
+    <string-array name="gadget_weather_image">
+        <item>Dégagé</item>
+        <item>Nuageux</item>
+        <item>Voilé</item>
+        <item>Brumeux</item>
+        <item>Pluie sévère</item>
+        <item>Tempête</item>
+        <item>Forte pluie</item>
+        <item>Orage</item>
+        <item>Shower</item>
+        <item>Forte pluie</item>
+        <item>Pluie</item>
+        <item>Bruine</item>
+        <item>Neige fondue</item>
+        <item>Tempête de neige</item>
+        <item>Episode neigeux</item>
+        <item>Forte chute de neige</item>
+        <item>Chute de neige</item>
+        <item>Chute de neige faible</item>
+        <item>Forte tempête de sable</item>
+        <item>Tempête de sable</item>
+        <item>Faible tempête de sable</item>
+        <item>Tempête de sable</item>
+        <item>Grêle</item>
+        <item>Pollution</item>
+    </string-array>
+</resources>

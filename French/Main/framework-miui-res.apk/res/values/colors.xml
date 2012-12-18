@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="secondary_tab_text_color">#b2000000</color>
+    <color name="secondary_tab_text_pressed_color">#ff000000</color>
+    <item type="color" name="guide_popup_window_textColor">@*android:color/white</item>
+    <color name="alphabet_indexer_overlay_text_color">#ffffffff</color>
+    <color name="button_text_color">#cc000000</color>
+    <color name="button_text_color_disabled">#53000000</color>
+    <item type="color" name="button_text_shadow">@color/primary_text_color_shadow</item>
+    <color name="primary_text_holo_light">#cc000000</color>
+    <color name="secondary_text_holo_light">#66000000</color>
+    <item type="color" name="android_config_defaultNotificationColor">@*android:color/config_defaultNotificationColor</item>
+    <color name="primary_text_holo_dark">#fff9f9f9</color>
+    <color name="secondary_text_holo_dark">#ffbebebe</color>
+    <item type="color" name="information_error">@*android:color/holo_red_dark</item>
+    <color name="information_warning">#ffff7e00</color>
+    <item type="color" name="information_in_progress">@*android:color/holo_purple</item>
+    <item type="color" name="information_done">@*android:color/holo_green_light</item>
+    <item type="color" name="information_normal">@*android:color/holo_blue_light</item>
+    <color name="alphabet_indexer_text_color">#4c000000</color>
+    <item type="color" name="primary_text_color_inverse">@*android:color/white</item>
+    <item type="color" name="secondary_text_color_inverse">@*android:color/white</item>
+    <color name="primary_text_color_shadow">#80ffffff</color>
+    <color name="secondary_text_color_shadow">#80ffffff</color>
+    <item type="color" name="android_listseparator_text_holo_light">@*android:color/listseparator_text_holo_light</item>
+    <color name="alphabet_indexer_highlight_text_color">#ffff7e00</color>
+    <item type="color" name="primary_tab_text_pressed_color">@color/primary_text_color_inverse</item>
+    <color name="primary_tab_text_selected_color">#ffff7e00</color>
+    <item type="color" name="primary_tab_text_color">@color/primary_text_holo_light</item>
+    <color name="darker_transparent">#c1000000</color>
+    <color name="editor_custom_action_button_text_color">#b2000000</color>
+    <color name="word_photo_color">#fff5f6f7</color>
+</resources>

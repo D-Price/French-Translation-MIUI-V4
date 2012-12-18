@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/childroot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <miui.app.resourcebrowser.util.ResourceScreenView android:id="@id/previews" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <include layout="@layout/deprecated_resource_operation_view" />
+    </LinearLayout>
+    <ImageView android:id="@id/coverview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</FrameLayout>
